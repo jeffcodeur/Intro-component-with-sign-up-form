@@ -31,8 +31,8 @@ Les utilisateurs doivent pouvoir:
 
 ### Links
 
-- Solution URL: [](https://github.com/jeffcodeur/Intro-component-with-sign-up-form)
-- Live Site URL: [](https://jeffcodeur.github.io/Intro-component-with-sign-up-form/)
+- Solution URL: [Solution](https://github.com/jeffcodeur/Intro-component-with-sign-up-form)
+- Live Site URL: [Voir le site](https://jeffcodeur.github.io/Intro-component-with-sign-up-form/)
 
 ## My process
 
