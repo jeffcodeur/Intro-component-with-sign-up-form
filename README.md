@@ -13,8 +13,6 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -33,8 +31,8 @@ Les utilisateurs doivent pouvoir:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [](https://github.com/jeffcodeur/Intro-component-with-sign-up-form)
+- Live Site URL: [](https://jeffcodeur.github.io/Intro-component-with-sign-up-form/)
 
 ## My process
 
