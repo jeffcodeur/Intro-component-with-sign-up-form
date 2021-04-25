@@ -1,0 +1,162 @@
+:root {
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+  --Blue: hsl(248, 32%, 49%);
+  --DarkBlue: hsl(249, 10%, 26%);
+  --GrayishBlue: hsl(246, 25%, 77%);
+}
+* {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: var(--Red);
+  background-image: url("../images/bg-intro-desktop.png");
+  color: #fff;
+  line-height: 1.3;
+}
+
+textarea,
+input {
+  outline: none;
+}
+
+.red {
+  color: var(--Red);
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  padding: 0px 6rem;
+}
+.container > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 1rem;
+}
+
+.title {
+  font-size: 3rem;
+}
+.subtitle {
+  line-height: 1.5;
+}
+
+/* RIGHT BLOCK DESIGN */
+
+.try-it {
+  background-color: var(--Blue);
+  text-align: center;
+  padding: 20px 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* FORM */
+
+.form-container {
+  background-color: #fff;
+  width: 100%;
+  padding: 40px;
+  border-radius: 10px;
+}
+.form-container p {
+  margin-top: 1rem;
+  color: var(--GrayishBlue);
+  font-size: 0.8rem;
+  text-align: center;
+}
+.form-group {
+  color: var(--Red);
+  position: relative;
+  margin-bottom: 15px;
+}
+
+/* FORM INPUT STYLE */
+/* input:focus:invalid, */
+.is-invalid,
+input:invalid {
+  background: url(../images/alert-circle.svg) 98% center no-repeat;
+  background-size: 25px 25px;
+  border-color: var(--Red);
+  transition: border 0.3s ease-in;
+}
+/* input:focus:valid, */
+.is-valid {
+  background: url(../images/checkmark-circle.svg) 98% center no-repeat;
+  background-size: 25px 25px;
+  border-color: var(--Green);
+  transition: border 0.3s ease-in;
+}
+
+.form-input {
+  padding: 1rem 2.5rem;
+  display: block;
+  width: 100%;
+  border: 2px solid var(--GrayishBlue);
+  border-radius: 10px;
+  color: var(--DarkBlue);
+  font-weight: 700;
+  transition: .1s all ease-in-out;
+}
+
+.form-input:focus {
+  border: 2px solid var(--Blue);
+}
+
+.msg-error {
+  font-size: 0.8rem;
+  visibility: hidden;
+}
+
+.btn-submit {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--Green);
+  padding: 20px 0px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn-submit:hover {
+  opacity: 0.8;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+  .container > div {
+    padding: 1rem 0rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .try-it {
+    font-size: 0.9rem;
+  }
+}
